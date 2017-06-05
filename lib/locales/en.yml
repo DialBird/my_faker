@@ -1,0 +1,7 @@
+en:
+  my_faker:
+    name:
+      last_name: ["Jordan", "John", "Smith"]
+      first_name: ["Bob", "Kile", "Mike"]
+      name:
+        - "#{last_name} #{first_name}"

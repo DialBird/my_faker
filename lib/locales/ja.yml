@@ -1,0 +1,7 @@
+ja:
+  my_faker:
+    name:
+      last_name: ["佐藤", "鈴木", "高橋"]
+      first_name: ["翔太", "蓮", "翔"]
+      name:
+        - "#{last_name} #{first_name}"
