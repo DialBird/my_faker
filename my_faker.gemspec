@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["rememberthatk@icloud.com"]
 
   spec.summary       = %q{my faker}
-  spec.description   = %q{my faker}
+  spec.description   = %q{my faker create}
   spec.homepage      = "http://test.example.com"
   spec.license       = "MIT"
 
@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_runtime_dependency('i18n')
 end
